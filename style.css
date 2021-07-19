@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("./images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+    width: 90%;
+}
+#ist {
+    margin: 40px 0 0 60px;
+    align-items: center;
+}
+#logo {
+    margin-bottom: 30px;
+}
+#gen {
+    display: flex;
+    flex-direction: ;
+}
+#text {
+    margin: 50px 0 0 45px;
+}
+div#text div:nth-of-type(1) {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(0, 0%, 100%);
+}
+div#text div:nth-of-type(2) {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16.5px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+}
+button {
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(257, 40%, 49%);
+    margin-top: 30px;
+    box-shadow: 0px 4px 6px 5px rgb(0, 0, 0, 0.1);
+}
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(0, 0%, 100%);
+}
+.ico {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: 1080px;
+    
+
+}
+.icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin-left: 16px;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.fa-facebook {
+    color: hsl(0, 0%, 100%);
+    padding: 6px 0 0 6.5px;
+}
+.icon:hover {
+    border: none;
+}
+.fa-facebook:hover {
+    height: 31px;
+    width: 31px;
+    border-radius: 45px;
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+.fa-twitter {
+    color: hsl(0, 0%, 100%);
+    padding: 7px 0 0 7px;
+}
+.fa-twitter:hover {
+    height: 31px;
+    width: 31px;
+    border-radius: 45px;
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+.fa-instagram {
+    color: hsl(0, 0%, 100%);
+    padding: 6px 0 0 7px;
+}
+.fa-instagram:hover {
+    height: 31px;
+    width: 31px;
+    border-radius: 45px;
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url("./images/bg-mobile.svg");
+        background-repeat: no-repeat;
+    }
+    #ist {
+        margin: 0px;
+        align-items: center;
+    }
+    #gen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #text {
+        text-align: center;
+    }
+    #logo {
+
+        margin: 20px 0 45px 30px;
+    }
+    #log {
+        height: 35px;
+        width: 35%;
+    }
+    #ill {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .ico {
+        margin-left: 110px;
+        margin-bottom: 5px;
+    }
+    }
