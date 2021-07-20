@@ -55,57 +55,56 @@ button {
 button:hover {
     background-color: hsl(300, 69%, 71%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 .ico {
     display: flex;
     flex-direction: row;
     margin-top: 45px;
-    margin-left: 1080px;
+    justify-content: flex-end;
     
 
 }
 .icon {
     height: 30px;
     width: 30px;
-    border-radius: 50px;
     margin-left: 16px;
-    border: 1px solid hsl(0, 0%, 100%);
 }
 .fa-facebook {
     color: hsl(0, 0%, 100%);
-    padding: 6px 0 0 6.5px;
+    padding: 6px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
 }
-.icon:hover {
+/* .icon:hover {
     border: none;
-}
+} */
 .fa-facebook:hover {
-    height: 31px;
-    width: 31px;
-    border-radius: 45px;
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 .fa-twitter {
     color: hsl(0, 0%, 100%);
-    padding: 7px 0 0 7px;
+    padding: 6px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
 }
 .fa-twitter:hover {
-    height: 31px;
-    width: 31px;
-    border-radius: 45px;
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 .fa-instagram {
     color: hsl(0, 0%, 100%);
-    padding: 6px 0 0 7px;
+    padding: 6px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
 }
 .fa-instagram:hover {
-    height: 31px;
-    width: 31px;
-    border-radius: 45px;
     color: hsl(300, 69%, 71%);
     border: 1px solid hsl(300, 69%, 71%);
+    cursor: pointer;
 }
 @media screen and (max-width: 375px) {
     body {
