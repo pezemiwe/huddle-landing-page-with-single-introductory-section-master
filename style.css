@@ -2,27 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
     box-sizing: border-box;
-}
-body {
     padding: 0px;
     margin: 0px;
+}
+body {
     background-color: hsl(257, 40%, 49%);
     background-image: url("./images/bg-desktop.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 100vh;
-    width: 90%;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 7%;
+    margin: 40px 0 0 0px;
 }
-#ist {
-    margin: 40px 0 0 60px;
-    align-items: center;
-}
+
 #logo {
     margin-bottom: 30px;
 }
 #gen {
     display: flex;
-    flex-direction: ;
 }
 #text {
     margin: 50px 0 0 45px;
@@ -42,9 +42,9 @@ div#text div:nth-of-type(2) {
 }
 button {
     height: 50px;
-    width: 180px;
+    width: 200px;
     border: none;
-    border-radius: 25px;
+    border-radius: 50px;
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 16px;
@@ -53,9 +53,11 @@ button {
     box-shadow: 0px 4px 6px 5px rgb(0, 0, 0, 0.1);
 }
 button:hover {
+    cursor: pointer;
+}
+button:active {
     background-color: hsl(300, 69%, 71%);
     color: hsl(0, 0%, 100%);
-    cursor: pointer;
 }
 .ico {
     display: flex;
@@ -106,13 +108,17 @@ button:hover {
     border: 1px solid hsl(300, 69%, 71%);
     cursor: pointer;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 800px) {
     body {
         background-image: url("./images/bg-mobile.svg");
         background-repeat: no-repeat;
+        margin: 0;
+        padding: 0%;
+        width: 100%;
     }
     #ist {
-        margin: 0px;
+        margin-top: 40px ;
+        padding: 0 10.5%;
         align-items: center;
     }
     #gen {
@@ -122,22 +128,27 @@ button:hover {
         justify-content: center;
     }
     #text {
+        margin: 50px 0 0 0px;
         text-align: center;
     }
     #logo {
-
-        margin: 20px 0 45px 30px;
+        margin: 20px 0 45px 0px;
     }
     #log {
         height: 35px;
         width: 35%;
     }
     #ill {
-        width: 90%;
-        margin-left: 30px;
+        width: 100%;
+        margin: 0 0%;
+        /* margin-left: 30px; */
     }
     .ico {
-        margin-left: 110px;
-        margin-bottom: 5px;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    .icon {
+        margin-left: 0;
+        margin-right: 20px;
     }
     }
